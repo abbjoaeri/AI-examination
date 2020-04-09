@@ -1,0 +1,1 @@
+<annotations><filename>00000377.JPEG</filename><folder>images</folder><size><width>750</width><height>563</height><depth>3</depth></size><object><name>fotbollar</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>467.0</xmin><ymin>300.0</ymin><xmax>664.0</xmax><ymax>505.0</ymax></bndbox></object></annotations>
