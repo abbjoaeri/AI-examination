@@ -21,3 +21,9 @@ Denna fil är som tidigare nämnt den fil som ska köras när man vill köra hel
 Detta är de algoritmer som har tränats för att granska bilderna. Just att den ena heter 2 är ingen skillnad, det är samma runda de har tränats. Den enda skillnaden är att de är två olika filformat på de två filerna. 
 ##### Övriga filer
 Desutom följer en hel del andra filer med för dig som vill kolla in dessa och hur de använts i träningen av AI-modellen (model.h5 & model2.tflite). Denna guide har använts för att träna modellen, delar av denna kod och vissa filer finns alltså med här i githuben där de eventuellt kan ha redigerats något: https://colab.research.google.com/drive/1nziez-jthZ4YuOl1GERwCygI0ozkDJsh.
+
+### Problem jag stött på
+Det mest tidskrävande i projektet, även om det kanske inte var ett problem i mitt fall var att skapa ett datset att använda till träningen av AI-modellen. Den delen gick ut på att ladda ned hundratals bilder från google och i samband med det på varje enstaka bild markera ut vart någonstans själva fotbollen befann sig. Otroligt tidskrävande men värt att göra för att nå ett så bra resultat som möjligt. 
+
+Ett annat problem, som egentligen inte var ett problem var att jag letade efter ett sätt att nå inlägget där bilden fanns när jag hade bilden. Efter en stunds felsökning testade jag med lite olika bibliotek men till slut kom jag på att jag har en variabel för inlägget innan det att jag kollar om inlägget har en bild i sig. Då kunde jag använda sden istället. 
+
