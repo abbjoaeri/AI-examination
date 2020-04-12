@@ -19,3 +19,5 @@ Denna mapp innehåller den bild som granskas och sedan visar sig innehålla en f
 Denna fil är som tidigare nämnt den fil som ska köras när man vill köra hela scriptet. Den innehåller både delarna där bilden hämtas från reddit, där den granskas av algoritmen och där en eventuell kommentar publiceras. 
 ##### AI-Reddit-bot-kod / model.h5 & AI-Reddit-bot-kod / model2.tflite
 Detta är de algoritmer som har tränats för att granska bilderna. Just att den ena heter 2 är ingen skillnad, det är samma runda de har tränats. Den enda skillnaden är att de är två olika filformat på de två filerna. 
+##### Övriga filer
+Desutom följer en hel del andra filer med för dig som vill kolla in dessa och hur de använts i träningen av AI-modellen (model.h5 & model2.tflite). Denna guide har använts för att träna modellen, delar av denna kod och vissa filer finns alltså med här i githuben där de eventuellt kan ha redigerats något: https://colab.research.google.com/drive/1nziez-jthZ4YuOl1GERwCygI0ozkDJsh.
