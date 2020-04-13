@@ -2,7 +2,7 @@
 En github med tillhörande filer och instruktioner samt analys av AI examinationen, i mitt fall en redditbot som analyserar bilder och försöker hitta fotbollar. Fortsätt läsa för att få veta mer. @footballrecognizer på reddit!
 
 ### Hur körs scriptet?
-För att köra scriptet så ska först och främst mappen 'Reddit-bot-kod' öppnas i din kodläsare. Sedan ska filen evaluate.py öppnas och köras som en vanlig python fil. När scriptet sedan körs kan vad som sker följas i terminalen och så småningom kan man eventuellt se en bild som innehåller en fotboll och vart någonstans den befinner sig i bilden. I mappen vid namn "mapp" finns den bild som just nu analyseras, oavsett om den innehåller en fotboll eller inte.
+För att köra scriptet så ska först och främst mappen 'Reddit-bot-kod' öppnas i din kodläsare. Ladda sedan ned de bibliotek som står importerade högst upp i koden 'evaluate.py' med hjälpa av pip. Se även till att du har python 3.7 nedladdat på datorn. Sedan ska filen 'evaluate.py' köras som en vanlig python fil. När scriptet sedan körs kan vad som sker följas i terminalen och så småningom kan man eventuellt se en bild som innehåller en fotboll och vart någonstans den befinner sig i bilden. I mappen vid namn "mapp" finns den bild som just nu analyseras, oavsett om den innehåller en fotboll eller inte.
 
 När scriptet körs så börjar programmet att kolla vilken eller vilka subreddits som valts. I mitt fall har jag valt subredditen "soccerbanners", mest på grund av att jag ville ha en subreddit relaterad till fotboll som till största delen består av bilder. När sedan en subreddit har valts så börjar scriptet att hämta den första posten från subredditen. Det första som då sker är att scriptet kollar om "jpg" finns i posten. Finns det ingen "jpg" så finns det ingen bild i posten och då avslutas denna post här och en ny post väljs ut ur samma subreddit. Om det finns "jpg", alltså bokstäverna och filformatet "jpg" i posten, så innebär det att det finns en bild i posten och processen går vidare. Då laddas denna bild ned till datorn och sparas i mappen 'mapp', som förövrigt finns med hör i githuben. I samma veva så omvandlas bilden till 'jpeg'-format för att bildigenkänningsalgoritmerna ska kunna tillämpas. Där efter börjar analysen på bilden för att försöka finna en fotboll i den. En ganska stor del av koden innehåller denna del av processen. 
 
@@ -13,11 +13,11 @@ Om du som läser detta är intresserad av att testa och se vilka bilder som bote
 ### Viktiga filer
 ##### Reddit-bot-kod / dataSetFotbollar
 Innehåller de bilder som använts för att träna upp algoritmen som används för att finna fotbollar i bilderna som analyseras. Bilderna finns i både XML- och JPEG- format. 
-##### AI-Reddit-bot-kod / detected
+##### Reddit-bot-kod / detected
 Denna mapp innehåller den bild som granskas och sedan visar sig innehålla en fotboll. När sedan väntetiden är slut efter att en kommentar har publicerats och en ny bild funnits med en fotboll så försvinner den gamla bilden och ersätts av den nya. 
-##### AI-Reddit-bot-kod / evaluate
+##### Reddit-bot-kod / evaluate
 Denna fil är som tidigare nämnt den fil som ska köras när man vill köra hela scriptet. Den innehåller både delarna där bilden hämtas från reddit, där den granskas av algoritmen och där en eventuell kommentar publiceras. 
-##### AI-Reddit-bot-kod / model.h5 & AI-Reddit-bot-kod / model2.tflite
+##### Reddit-bot-kod / model.h5 & AI-Reddit-bot-kod / model2.tflite
 Detta är de algoritmer som har tränats för att granska bilderna. Just att den ena heter 2 är ingen skillnad, det är samma runda de har tränats. Den enda skillnaden är att de är två olika filformat på de två filerna. 
 ##### Övriga filer
 Desutom följer en hel del andra filer med för dig som vill kolla in dessa och hur de använts i träningen av AI-modellen (model.h5 & model2.tflite). Denna guide har använts för att träna modellen, delar av denna kod och vissa filer finns alltså med här i githuben där de eventuellt kan ha redigerats något: https://colab.research.google.com/drive/1nziez-jthZ4YuOl1GERwCygI0ozkDJsh.
