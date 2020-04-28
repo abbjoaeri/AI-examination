@@ -107,7 +107,7 @@ for submission in subreddit.stream.submissions():
                 print("{}-boxes are detected. {} saved.".format(len(boxes), output_path))
                 if len(probs) > 0:
                     cv2.imwrite(output_path, image)
-                    probability = probs[0][0] * 100
+                    probability = probs[0][0] * 100 # calculates probabilty, multiplies with 100 to convert from decimals to %
                     submission.reply("The image contains a football with a certainty of " + str(probability) + "%.") 
                     print("Kommenterat på reddit, etersom det finns en fotboll i bilden.")
                     print("Väntar nu 10 minuter för att kringgå reddits spamm filter.")
