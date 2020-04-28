@@ -54,7 +54,7 @@ reddit = praw.Reddit(user_agent='footballrecognizer',
                      client_id='_NosXdhPBALJKA', 
                      client_secret="eFh0UgpI-IwCGHIRb_1uNHYGWck",
                      username='footballrecognizer', 
-                     password='qwerty12345')    
+                     password='qwerty12345')
 
 subreddit = reddit.subreddit('soccerbanners') # subreddit info
 
@@ -108,7 +108,7 @@ for submission in subreddit.stream.submissions():
                 if len(probs) > 0:
                     cv2.imwrite(output_path, image)
                     probability = probs[0][0] * 100
-                    submission.reply("The image contains a football with a certainty of " + probability + "%.") 
+                    submission.reply("The image contains a football with a certainty of " + str(probability) + "%.") 
                     print("Kommenterat på reddit, etersom det finns en fotboll i bilden.")
                     print("Väntar nu 10 minuter för att kringgå reddits spamm filter.")
                     time.sleep(600)
