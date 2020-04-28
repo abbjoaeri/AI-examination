@@ -23,8 +23,13 @@ Detta är de algoritmer som har tränats för att granska bilderna. Just att den
 Desutom följer en hel del andra filer med för dig som vill kolla in dessa och hur de använts i träningen av AI-modellen (model.h5 & model2.tflite). Denna guide har använts för att träna modellen, delar av denna kod och vissa filer finns alltså med här i githuben där de eventuellt kan ha redigerats något: https://colab.research.google.com/drive/1nziez-jthZ4YuOl1GERwCygI0ozkDJsh.
 
 ### Exempel på hur det kan se ut
+Här nedan ett exempel på hur det kan se ut när botten kommenterar att det finns en fotboll i bilden och dessutom med vilken sannolikhet.
 
 ![Här är ett exempel på hur det kan se ut när botten kommenterar att det finns en fotboll i bilden och dessutom med vilken sannolikhet.](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot1.PNG)
+
+Samtidigt får användaren detta meddelande i sin terminal: 
+
+![terminal](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot4.PNG)
 
 
 ### Problem och annat jag stött på
