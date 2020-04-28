@@ -36,6 +36,7 @@ Samtidigt får användaren detta meddelande i sin terminal:
 Nedan här finns ett litet intressant kodexempel på den sista delen i koden 'evaluate.py'.
 
 ![Kodexempel](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot5.PNG)
+Anledningen till att detta är intressant är att mycket viktigt sker på en liten del kod. Denna del körs alltså om scriptet anser att det finns en fotboll i bilden. Först räknas den procentuella sannolikheten ut genom att multiplicera sannolikheten i decimaltal (probs[0][0]) med 100. Därefter används ett kommando från biblioteket praw som gör att en kommentar skrivs ut och publiceras på reddit. Sedan väntar programmet i 10 minuter, för att kringgå reddits spammskydd. Avslutningsvis raderas bilden som analyserats för att en ny bild ska kunna analyseras senare. 
 
 
 ## Problem och annat jag stött på
