@@ -24,7 +24,7 @@ Desutom följer en hel del andra filer med för dig som vill kolla in dessa och 
 
 ### Exempel på hur det kan se ut
 
-![Image description](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot1.PNG)
+![Här är ett exempel på hur det kan se ut när botten kommenterar att det finns en fotboll i bilden och dessutom med vilken sannolikhet.](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot1.PNG)
 
 
 ### Problem och annat jag stött på
