@@ -22,6 +22,9 @@ Detta är de algoritmer som har tränats för att granska bilderna. Just att den
 ##### Övriga filer
 Desutom följer en hel del andra filer med för dig som vill kolla in dessa och hur de använts i träningen av AI-modellen (model.h5 & model2.tflite). Denna guide har använts för att träna modellen, delar av denna kod och vissa filer finns alltså med här i githuben där de eventuellt kan ha redigerats något: https://colab.research.google.com/drive/1nziez-jthZ4YuOl1GERwCygI0ozkDJsh.
 
+### Exempel på hur det kan se ut
+
+
 ### Problem och annat jag stött på
 Det mest tidskrävande i projektet, även om det kanske inte var ett problem i mitt fall var att skapa ett datset att använda till träningen av AI-modellen. Den delen gick ut på att ladda ned hundratals bilder från google och i samband med det på varje enstaka bild markera ut vart någonstans själva fotbollen befann sig. Otroligt tidskrävande men värt att göra för att nå ett så bra resultat som möjligt. 
 
