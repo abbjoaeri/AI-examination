@@ -1,6 +1,8 @@
 # AI-examination
 En github med tillhörande filer och instruktioner samt analys av AI examinationen, i mitt fall en redditbot som analyserar bilder och försöker hitta fotbollar. Fortsätt läsa för att få veta mer. @footballrecognizer på reddit!
 
+![Exempel kommentar](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot3.PNG)
+
 ### Hur körs scriptet?
 För att köra scriptet så ska först och främst mappen 'Reddit-bot-kod' öppnas i din kodläsare. Ladda sedan ned de bibliotek som står importerade högst upp i koden 'evaluate.py' med hjälpa av pip. Se även till att du har python 3.7 nedladdat på datorn. Sedan ska filen 'evaluate.py' köras som en vanlig python fil. När scriptet sedan körs kan vad som sker följas i terminalen och så småningom kan man eventuellt se en bild som innehåller en fotboll och vart någonstans den befinner sig i bilden. I mappen vid namn "mapp" finns den bild som just nu analyseras, oavsett om den innehåller en fotboll eller inte.
 
