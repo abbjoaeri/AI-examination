@@ -33,6 +33,10 @@ Samtidigt får användaren detta meddelande i sin terminal:
 
 ![terminal](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot4.PNG)
 
+Nedan här finns ett litet intressant kodexempel på den sista delen i koden 'evaluate.py'.
+
+![Kodexempel](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot5.PNG)
+
 
 ### Problem och annat jag stött på
 Det mest tidskrävande i projektet, även om det kanske inte var ett problem i mitt fall var att skapa ett datset att använda till träningen av AI-modellen. Den delen gick ut på att ladda ned hundratals bilder från google och i samband med det på varje enstaka bild markera ut vart någonstans själva fotbollen befann sig. Otroligt tidskrävande men värt att göra för att nå ett så bra resultat som möjligt. 
