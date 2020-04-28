@@ -1,5 +1,5 @@
 # AI-examination
-En github med tillhörande filer och instruktioner samt analys av AI examinationen, i mitt fall en redditbot som analyserar bilder och försöker hitta fotbollar. Fortsätt läsa för att få veta mer. @footballrecognizer på reddit!
+En github med tillhörande filer och instruktioner samt analys av AI examinationen, i mitt fall en redditbot som analyserar bilder och försöker hitta fotbollar. Fortsätt läsa för att få veta mer. Kolla gärna in kommentaren på bilden nedan, @footballrecognizer på reddit!
 
 ![Exempel kommentar](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot3.PNG)
 
