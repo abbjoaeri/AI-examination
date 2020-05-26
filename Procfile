@@ -1,2 +1,2 @@
 web: python server.py
-worker: python main.py
+worker: python evaluate.py
