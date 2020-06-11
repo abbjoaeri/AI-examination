@@ -54,5 +54,5 @@ Det som först och främst kan och bör utvecklas är datasetet som använts vid
 På längre sikt skulle boten kunna utvecklas till att exempelvis följa en hel match och hela tiden markera ut bollen på skärmen. Detta skulle sedan till exempelvis kunna användas för att räkna ut statistik som exempelvis bollinnehav och vart på planen respektive lag har bollen. En liknande teknik finns faktiskt redan idag, denna kallas veo: https://www.veo.co/. Kolla gärna in länken. Detta företag tillverkar kameror som filmar matcherna automatiskt utan att någon styr kameran, alltså följer kameran bollen av sig själv. Min förening äger en sådan och för bara några veckor sedan filmades min match med en sån kamera. Ett potentiellt drömjobb att arbeta där då mitt huvudintresse skulle kunna kombineras med kunskaperna från detta projekt.  
 
 ## Frågor?
-Har du några frågor eller har någon feedback? Hör gärna av dig via teams eller mail (joakim.eriksson@abbindustrigymnasium.se) isåfall!
+Har du några frågor eller har någon feedback? Hör isåfall gärna av dig via teams eller mail (joakim.eriksson@abbindustrigymnasium.se)!
 
