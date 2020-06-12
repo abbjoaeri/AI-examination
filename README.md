@@ -40,6 +40,10 @@ Nedan här finns ett litet intressant kodexempel på den sista delen i koden 'ev
 ![Kodexempel](https://github.com/abbjoaeri/AI-examination/blob/master/images/redditbot5.PNG)
 Anledningen till att detta är intressant är att mycket viktigt sker på en liten del kod. Denna del körs alltså om scriptet anser att det finns en fotboll i bilden. Först räknas den procentuella sannolikheten ut genom att multiplicera sannolikheten i decimaltal (probs[0][0]) med 100. Därefter används ett kommando från biblioteket praw som gör att en kommentar skrivs ut och publiceras på reddit. Sedan väntar programmet i 10 minuter, för att kringgå reddits spammskydd. Avslutningsvis raderas bilden som analyserats för att en ny bild ska kunna analyseras senare. 
 
+Här nedan finns ett exempel på hur det ser ut när boten varit igång ett tag och många bilder har hunnit analyserats.
+
+![terminal](https://github.com/abbjoaeri/AI-examination/blob/master/redditbot6.PNG)
+
 
 ## Problem och annat jag stött på
 Det mest tidskrävande i projektet, även om det kanske inte var ett problem i mitt fall var att skapa ett datset att använda till träningen av AI-modellen. Den delen gick ut på att ladda ned hundratals bilder från google och i samband med det på varje enstaka bild markera ut vart någonstans själva fotbollen befann sig. Otroligt tidskrävande men värt att göra för att nå ett så bra resultat som möjligt. 
